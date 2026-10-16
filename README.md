@@ -71,7 +71,7 @@ Most of my recent work is enterprise-grade systems for **regulated sectors**: th
   <tr>
     <td colspan="2" valign="top">
       <a href="https://dronafit.kishankanejiiya.tech"><img src="assets/dronafit.png" alt="DronaFit" width="100%"></a>
-      <h3><a href="https://dronafit.kishankanejiiya.tech">DronaFit</a> · <a href="https://dronafit.kishankanejiiya.tech">live ↗</a> <sub>· private repo</sub></h3>
+      <h3><a href="https://dronafit.kishankanejiiya.tech">DronaFit</a> <img alt="Private repo" src="https://img.shields.io/badge/Private_repo-16130F?style=flat-square&logo=github&logoColor=white" align="absmiddle"></h3>
       A fitness coach in your pocket: a 417-exercise library with form cues, 30 coach-built programs and an AI coach that writes your weekly plan. It has a responsive shell (bottom tabs on phones, sidebar on desktop), light and dark themes, email-OTP or guest access, and row-level security on every user table.
       <br><br>
       <code>React 19</code> <code>TypeScript</code> <code>Vite 8</code> <code>Tailwind CSS 4</code> <code>Supabase</code> <code>Docker + nginx</code> <code>AI</code>
@@ -80,7 +80,7 @@ Most of my recent work is enterprise-grade systems for **regulated sectors**: th
   <tr>
     <td width="50%" valign="top">
       <a href="https://linkstack.kishankanejiya-mscict19.workers.dev/"><img src="assets/linkstack.png" alt="LinkStack" width="100%"></a>
-      <h3><a href="https://linkstack.kishankanejiya-mscict19.workers.dev/">LinkStack</a> · <a href="https://linkstack.kishankanejiya-mscict19.workers.dev/">live ↗</a> <sub>· private repo · MVP</sub></h3>
+      <h3><a href="https://linkstack.kishankanejiya-mscict19.workers.dev/">LinkStack</a> <img alt="Private repo" src="https://img.shields.io/badge/Private_repo-16130F?style=flat-square&logo=github&logoColor=white" align="absmiddle"></h3>
       A link-in-bio platform, now at MVP: 19 themes, a live phone preview, and a YouTube soundtrack that autoplays within browser rules. One render model powers the public page, the editor preview and the theme picker.
       <br><br>
       <code>Next.js 16</code> <code>React 19</code> <code>TypeScript</code> <code>Appwrite</code> <code>Cloudflare Workers</code>
