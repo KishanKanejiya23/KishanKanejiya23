@@ -80,8 +80,8 @@ Most of my recent work is enterprise-grade systems for **regulated sectors**: th
   <tr>
     <td width="50%" valign="top">
       <a href="https://linkstack.kishankanejiya-mscict19.workers.dev/"><img src="assets/linkstack.png" alt="LinkStack" width="100%"></a>
-      <h3><a href="https://github.com/KishanKanejiya23/LinkStack">LinkStack</a> · <a href="https://linkstack.kishankanejiya-mscict19.workers.dev/">live ↗</a></h3>
-      A link-in-bio platform: 19 themes, a live phone preview, and a YouTube soundtrack that autoplays within browser rules. One render model powers the public page, the editor preview and the theme picker.
+      <h3><a href="https://linkstack.kishankanejiya-mscict19.workers.dev/">LinkStack</a> · <a href="https://linkstack.kishankanejiya-mscict19.workers.dev/">live ↗</a> <sub>· private repo · MVP</sub></h3>
+      A link-in-bio platform, now at MVP: 19 themes, a live phone preview, and a YouTube soundtrack that autoplays within browser rules. One render model powers the public page, the editor preview and the theme picker. Owner-only data permissions and server-side admin checks come as standard.
       <br><br>
       <code>Next.js 16</code> <code>React 19</code> <code>TypeScript</code> <code>Appwrite</code> <code>Cloudflare Workers</code>
     </td>
@@ -94,6 +94,9 @@ Most of my recent work is enterprise-grade systems for **regulated sectors**: th
     </td>
   </tr>
 </table>
+
+> [!NOTE]
+> **Why some repos are private.** DronaFit and LinkStack are early-stage products, so their source stays private while they grow from MVP. Both are live, so give them a try. I'm always happy to walk through the code, architecture and trade-offs on a call. [Just ask on LinkedIn](https://linkedin.com/in/kishankanejiya).
 
 <br>
 
