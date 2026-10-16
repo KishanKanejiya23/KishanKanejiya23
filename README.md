@@ -87,7 +87,7 @@ Most of my recent work is enterprise-grade systems for **regulated sectors**: th
     </td>
     <td width="50%" valign="top">
       <a href="https://blinkgames.fun"><img src="assets/blinkgames.png" alt="BlinkGames" width="100%"></a>
-      <h3><a href="https://github.com/KishanKanejiya23/blink-games-v2">BlinkGames</a> · <a href="https://blinkgames.fun">live ↗</a></h3>
+      <h3><a href="https://blinkgames.fun">BlinkGames</a> <img alt="Fun project" src="https://img.shields.io/badge/Fun_project-FF5A36?style=flat-square" align="absmiddle"></h3>
       A mobile-first HTML5 games portal. An idempotent importer loads a 23.5k-game licensed catalogue into self-hosted Supabase, and ad slots are reserved so the layout never shifts.
       <br><br>
       <code>Next.js 15</code> <code>React 19</code> <code>Supabase</code> <code>PostgreSQL</code> <code>Server Components</code>
