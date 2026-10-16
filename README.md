@@ -70,8 +70,8 @@ Most of my recent work is enterprise-grade systems for **regulated sectors**: th
 <table>
   <tr>
     <td width="50%" valign="top">
-      <a href="https://github.com/KishanKanejiya23/LinkStack"><img src="assets/linkstack.png" alt="LinkStack" width="100%"></a>
-      <h3><a href="https://github.com/KishanKanejiya23/LinkStack">LinkStack</a></h3>
+      <a href="https://linkstack.kishankanejiya-mscict19.workers.dev/"><img src="assets/linkstack.png" alt="LinkStack" width="100%"></a>
+      <h3><a href="https://github.com/KishanKanejiya23/LinkStack">LinkStack</a> · <a href="https://linkstack.kishankanejiya-mscict19.workers.dev/">live ↗</a></h3>
       A link-in-bio platform: 19 themes, a live phone preview, and a YouTube soundtrack that autoplays within browser rules. One render model powers the public page, the editor preview and the theme picker.
       <br><br>
       <code>Next.js 16</code> <code>React 19</code> <code>TypeScript</code> <code>Appwrite</code> <code>Cloudflare Workers</code>
