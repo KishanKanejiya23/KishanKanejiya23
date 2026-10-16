@@ -69,6 +69,15 @@ Most of my recent work is enterprise-grade systems for **regulated sectors**: th
 
 <table>
   <tr>
+    <td colspan="2" valign="top">
+      <a href="https://dronafit.kishankanejiiya.tech"><img src="assets/dronafit.png" alt="DronaFit" width="100%"></a>
+      <h3><a href="https://dronafit.kishankanejiiya.tech">DronaFit</a> · <a href="https://dronafit.kishankanejiiya.tech">live ↗</a> <sub>· private repo</sub></h3>
+      A fitness coach in your pocket: a 417-exercise library with form cues, 30 coach-built programs and an AI coach that writes your weekly plan. It has a responsive shell (bottom tabs on phones, sidebar on desktop), light and dark themes, email-OTP or guest access, and row-level security on every user table.
+      <br><br>
+      <code>React 19</code> <code>TypeScript</code> <code>Vite 8</code> <code>Tailwind CSS 4</code> <code>Supabase</code> <code>Docker + nginx</code> <code>AI</code>
+    </td>
+  </tr>
+  <tr>
     <td width="50%" valign="top">
       <a href="https://linkstack.kishankanejiya-mscict19.workers.dev/"><img src="assets/linkstack.png" alt="LinkStack" width="100%"></a>
       <h3><a href="https://github.com/KishanKanejiya23/LinkStack">LinkStack</a> · <a href="https://linkstack.kishankanejiya-mscict19.workers.dev/">live ↗</a></h3>
