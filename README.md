@@ -125,6 +125,15 @@ Most of my recent work is enterprise-grade systems for **regulated sectors**: th
       <code>Next.js 15</code> <code>React 19</code> <code>Supabase</code> <code>PostgreSQL</code> <code>Server Components</code>
     </td>
   </tr>
+  <tr>
+    <td colspan="2" valign="top">
+      <a href="https://expense-tracker.kishankanejiya-mscict19.workers.dev/"><img src="assets/expensetrack.png" alt="ExpenseTrack: a shared household ledger showing the month's total, who paid what and who owes who" width="100%"></a>
+      <h3><a href="https://expense-tracker.kishankanejiya-mscict19.workers.dev/">ExpenseTrack</a> <img alt="Private repo" src="https://img.shields.io/badge/Private_repo-16130F?style=flat-square&logo=github&logoColor=white" align="absmiddle"></h3>
+      Shared bills for couples and flatmates. Everyone in a room logs rent, energy and the big shop into one ledger, and the overview works out each person's equal share and says plainly who owes who. It adds 30-day to 12-month analytics, realtime room chat, one-link invites and CSV export for any date range. Row-level security covers every table, joining a room only happens through a validated invite function, and it runs on my self-hosted Supabase.
+      <br><br>
+      <code>Next.js 15</code> <code>React 19</code> <code>TypeScript</code> <code>Tailwind CSS 4</code> <code>Supabase</code> <code>Realtime</code> <code>Cloudflare Workers</code>
+    </td>
+  </tr>
 </table>
 
 > [!NOTE]
