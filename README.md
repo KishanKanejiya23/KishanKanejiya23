@@ -134,6 +134,15 @@ Most of my recent work is enterprise-grade systems for **regulated sectors**: th
       <code>Next.js 15</code> <code>React 19</code> <code>TypeScript</code> <code>Tailwind CSS 4</code> <code>Supabase</code> <code>Realtime</code> <code>Cloudflare Workers</code>
     </td>
   </tr>
+  <tr>
+    <td colspan="2" valign="top">
+      <a href="https://linkmap.pages.dev"><img src="assets/linkmap.jpg" alt="LinkMap: a landing page whose hero is a live board of draggable link cards grouped into piles" width="100%"></a>
+      <h3><a href="https://linkmap.pages.dev">LinkMap</a> <img alt="Private repo" src="https://img.shields.io/badge/Private_repo-16130F?style=flat-square&logo=github&logoColor=white" align="absmiddle"></h3>
+      Bookmarks on an endless canvas, so you find links by where you left them instead of scrolling a list. Paste anywhere to pin a link, drag it into a pile, and zoom with a trackpad, a scroll wheel or a pinch on your phone. One link turns a map into a live room with presence, emoji faces and an activity timeline of every add, edit and removal. Personal maps need no account and export as JSON.
+      <br><br>
+      <code>Next.js 15</code> <code>React 19</code> <code>TypeScript</code> <code>Supabase Realtime</code> <code>Edge Functions</code> <code>GSAP</code> <code>Cloudflare Pages</code>
+    </td>
+  </tr>
 </table>
 
 > [!NOTE]
