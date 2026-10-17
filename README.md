@@ -69,6 +69,38 @@ Most of my recent work is enterprise-grade systems for **regulated sectors**: th
 
 <table>
   <tr>
+    <td width="50%" valign="top">
+      <a href="https://sift.kishankanejiiya.tech"><img src="assets/sift.gif" alt="Sift: a live LLM pipeline with a circuit breaker flipping open under injected failures" width="100%"></a>
+      <h3><a href="https://sift.kishankanejiiya.tech">Sift</a> <img alt="Private repo" src="https://img.shields.io/badge/Private_repo-16130F?style=flat-square&logo=github&logoColor=white" align="absmiddle"></h3>
+      AI triage for support tickets, built around the part most LLM demos skip: what happens when the model is slow, rate-limited or returns broken JSON. It has a durable queue with leases, retries with backoff and jitter, a circuit breaker that falls back to a rules engine, and a dead-letter queue you can replay. A chaos desk lets you inject failures and watch the breaker trip live.
+      <br><br>
+      <code>Go</code> <code>Next.js 16</code> <code>Claude API</code> <code>SQLite</code> <code>SSE</code> <code>Docker</code>
+    </td>
+    <td width="50%" valign="top">
+      <a href="https://gridpulse.kishankanejiiya.tech"><img src="assets/gridpulse.gif" alt="GridPulse: scrubbing the 48-hour carbon forecast for Great Britain" width="100%"></a>
+      <h3><a href="https://gridpulse.kishankanejiiya.tech">GridPulse</a> <img alt="Private repo" src="https://img.shields.io/badge/Private_repo-16130F?style=flat-square&logo=github&logoColor=white" align="absmiddle"></h3>
+      How clean is Britain's electricity right now, and when should you run the dishwasher? It uses live National Grid ESO data for all 14 regions, a hand-drawn grid scene driven by the real generation mix, and a 48-hour forecast you can drag through. A Go planner finds the greenest window for any appliance and deadline.
+      <br><br>
+      <code>Go</code> <code>Next.js 16</code> <code>SQLite</code> <code>SVG data viz</code> <code>Docker</code>
+    </td>
+  </tr>
+  <tr>
+    <td width="50%" valign="top">
+      <a href="https://burnbox.kishankanejiiya.tech"><img src="assets/burnbox.gif" alt="Burnbox: live ciphertext preview, wax-seal envelope and the burn after reading" width="100%"></a>
+      <h3><a href="https://burnbox.kishankanejiiya.tech">Burnbox</a> <img alt="Private repo" src="https://img.shields.io/badge/Private_repo-16130F?style=flat-square&logo=github&logoColor=white" align="absmiddle"></h3>
+      One-time secret links that burn after reading. Secrets are encrypted in the browser with AES-256-GCM, the key lives in the URL fragment, and an optional passphrase is stretched with PBKDF2 and combined with HKDF. The server only ever stores ciphertext, and a live panel shows you exactly what it receives. Burn-after-read is atomic, and link-preview bots can't use up a view.
+      <br><br>
+      <code>WebCrypto</code> <code>Go</code> <code>Next.js 16</code> <code>SQLite</code> <code>Threat model</code>
+    </td>
+    <td width="50%" valign="top">
+      <a href="https://tillflow.kishankanejiiya.tech"><img src="assets/tillflow.gif" alt="TillFlow: café register sending a ticket to the live kitchen rail" width="100%"></a>
+      <h3><a href="https://tillflow.kishankanejiiya.tech">TillFlow</a> <img alt="Private repo" src="https://img.shields.io/badge/Private_repo-16130F?style=flat-square&logo=github&logoColor=white" align="absmiddle"></h3>
+      A touch-first point of sale for small cafés. The register handles modifiers, VAT and cash change down to the penny, and orders land on a kitchen rail as paper tickets over Server-Sent Events. Staff sign in with argon2id PINs, roles are enforced in the API, and idempotency keys mean a double tap never charges twice. Demo PINs are on the sign-in screen.
+      <br><br>
+      <code>Go</code> <code>Next.js 16</code> <code>SSE</code> <code>SQLite</code> <code>RBAC</code> <code>Docker</code>
+    </td>
+  </tr>
+  <tr>
     <td colspan="2" valign="top">
       <a href="https://dronafit.kishankanejiiya.tech"><img src="assets/dronafit.png" alt="DronaFit" width="100%"></a>
       <h3><a href="https://dronafit.kishankanejiiya.tech">DronaFit</a> <img alt="Private repo" src="https://img.shields.io/badge/Private_repo-16130F?style=flat-square&logo=github&logoColor=white" align="absmiddle"></h3>
@@ -96,7 +128,7 @@ Most of my recent work is enterprise-grade systems for **regulated sectors**: th
 </table>
 
 > [!NOTE]
-> **Why some repos are private.** DronaFit and LinkStack are early-stage products, so their source stays private while they grow from MVP. Both are live, so give them a try. I'm always happy to walk through the code, architecture and trade-offs on a call. [Just ask on LinkedIn](https://linkedin.com/in/kishankanejiya).
+> **Why some repos are private.** These are early-stage products, so their source stays private while they grow from MVP. Each one runs in hardened containers on my own server behind a Cloudflare Tunnel, with no open inbound ports. They're all live, so give them a try. I'm always happy to walk through the code, architecture and trade-offs on a call. [Just ask on LinkedIn](https://linkedin.com/in/kishankanejiya).
 
 <br>
 
@@ -108,7 +140,7 @@ Most of my recent work is enterprise-grade systems for **regulated sectors**: th
 
 **Back end & data**
 <br>
-<img src="https://skillicons.dev/icons?i=nodejs,graphql,postgres,supabase,appwrite,mongodb,prisma&perline=11" alt="Node.js, GraphQL, PostgreSQL, Supabase, Appwrite, MongoDB, Prisma">
+<img src="https://skillicons.dev/icons?i=nodejs,graphql,postgres,sqlite,supabase,appwrite,mongodb,prisma&perline=11" alt="Node.js, GraphQL, PostgreSQL, SQLite, Supabase, Appwrite, MongoDB, Prisma">
 
 **Cloud, quality & tooling**
 <br>
