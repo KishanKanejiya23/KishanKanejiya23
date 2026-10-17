@@ -77,9 +77,9 @@ Most of my recent work is enterprise-grade systems for **regulated sectors**: th
       <code>Go</code> <code>Next.js 16</code> <code>Claude API</code> <code>SQLite</code> <code>SSE</code> <code>Docker</code>
     </td>
     <td width="50%" valign="top">
-      <a href="https://gridpulse.kishankanejiiya.tech"><img src="assets/gridpulse.gif" alt="GridPulse: scrubbing the 48-hour carbon forecast for Great Britain" width="100%"></a>
+      <a href="https://gridpulse.kishankanejiiya.tech"><img src="assets/gridpulse.gif" alt="GridPulse: live carbon gauge over a wind-farm hero, then scrubbing the 48-hour forecast" width="100%"></a>
       <h3><a href="https://gridpulse.kishankanejiiya.tech">GridPulse</a> <img alt="Private repo" src="https://img.shields.io/badge/Private_repo-16130F?style=flat-square&logo=github&logoColor=white" align="absmiddle"></h3>
-      How clean is Britain's electricity right now, and when should you run the dishwasher? It uses live National Grid ESO data for all 14 regions, a hand-drawn grid scene driven by the real generation mix, and a 48-hour forecast you can drag through. A Go planner finds the greenest window for any appliance and deadline.
+      How clean is Britain's electricity right now, and when should you run the dishwasher? A live carbon-intensity gauge, generation and carbon by fuel, and a 48-hour forecast you can drag through, for Great Britain and all 14 regions. A Go planner finds the greenest window for any appliance and deadline, and the "grid stories" are written from the data itself. You can download the data as CSV.
       <br><br>
       <code>Go</code> <code>Next.js 16</code> <code>SQLite</code> <code>SVG data viz</code> <code>Docker</code>
     </td>
