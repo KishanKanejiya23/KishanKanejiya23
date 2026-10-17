@@ -69,6 +69,15 @@ Most of my recent work is enterprise-grade systems for **regulated sectors**: th
 
 <table>
   <tr>
+    <td colspan="2" valign="top">
+      <a href="https://airadar.kishankanejiiya.tech"><img src="assets/airadar.gif" alt="AI Radar: a Medium-style publication filled every hour by an n8n workflow" width="100%"></a>
+      <h3><a href="https://airadar.kishankanejiiya.tech">AI Radar</a> <img alt="Private repo" src="https://img.shields.io/badge/Private_repo-16130F?style=flat-square&logo=github&logoColor=white" align="absmiddle"></h3>
+      A publication written by a workflow. Every hour my n8n pipeline reads 11 AI and full-stack sources and ranks a few hundred links, then publishes the best on a Medium-style site and on Telegram. The workflow posts each run to a private ingest API (bearer token, internal Docker network only), and runs are stored in Postgres in a least-privilege schema on self-hosted Supabase. A Go worker fetches link previews behind an SSRF guard. The site has issues, story pages, topics, full-text search, claps, RSS and a live pipeline strip.
+      <br><br>
+      <code>n8n</code> <code>Go</code> <code>Next.js 16</code> <code>PostgreSQL</code> <code>Supabase</code> <code>Telegram Bot API</code> <code>Docker</code>
+    </td>
+  </tr>
+  <tr>
     <td width="50%" valign="top">
       <a href="https://sift.kishankanejiiya.tech"><img src="assets/sift.gif" alt="Sift: a live LLM pipeline with a circuit breaker flipping open under injected failures" width="100%"></a>
       <h3><a href="https://sift.kishankanejiiya.tech">Sift</a> <img alt="Private repo" src="https://img.shields.io/badge/Private_repo-16130F?style=flat-square&logo=github&logoColor=white" align="absmiddle"></h3>
@@ -162,7 +171,7 @@ Most of my recent work is enterprise-grade systems for **regulated sectors**: th
 
 **Cloud, quality & tooling**
 <br>
-<img src="https://skillicons.dev/icons?i=azure,cloudflare,docker,githubactions,vercel,vitest,jest,figma,git,linux&perline=11" alt="Azure, Cloudflare, Docker, GitHub Actions, Vercel, Vitest, Jest, Figma, Git, Linux">
+<img src="https://skillicons.dev/icons?i=azure,cloudflare,docker,githubactions,vercel,vitest,jest,figma,git,linux,n8n&perline=11" alt="Azure, Cloudflare, Docker, GitHub Actions, Vercel, Vitest, Jest, Figma, Git, Linux">
 
 **AI**
 <br>
