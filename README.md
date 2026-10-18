@@ -70,6 +70,15 @@ Most of my recent work is enterprise-grade systems for **regulated sectors**: th
 <table>
   <tr>
     <td colspan="2" valign="top">
+      <a href="https://seensooner.kishankanejiiya.tech"><img src="assets/seensooner.gif" alt="SeenSooner: choosing planned care, comparing orthopaedic waits near N12 8NP, then live A&amp;E waits hospital by hospital around Coventry" width="100%"></a>
+      <h3><a href="https://seensooner.kishankanejiiya.tech">SeenSooner</a> <a href="https://github.com/KishanKanejiya23/seensooner"><img alt="Open source" src="https://img.shields.io/badge/Open_source-0d6b62?style=flat-square&logo=github&logoColor=white" align="absmiddle"></a></h3>
+      Find where you'll be seen sooner on the NHS. It reads the live A&amp;E, urgent treatment centre and minor injuries waits that 15 trusts and health boards publish (about 70 sites), each in its own format, and shows them hospital by hospital near your postcode, keeping each trust's own definition and update time. Banded figures stay banded, and a failing source never breaks the page. For planned care, a stdlib Python pipeline turns NHS England's 80 MB monthly waiting-list extract into median waits for 506 providers and 20 specialties, so you can see that a hip or knee wait is 5 weeks at one London hospital and 16 at another 7 miles away, then use your legal right to choose. It's designed like a real public-service site, after studying NHS trust pages, but with its own identity rather than NHS branding. It has no backend and no database, stores nothing about visitors, and scores 100 on Lighthouse for SEO and accessibility.
+      <br><br>
+      <code>Next.js 16</code> <code>React 19</code> <code>TypeScript</code> <code>Python</code> <code>NHS open data</code> <code>WCAG 2.2 AA</code> <code>Technical SEO</code> <code>Docker</code> <code>Cloudflare Tunnel</code>
+    </td>
+  </tr>
+  <tr>
+    <td colspan="2" valign="top">
       <a href="https://doorstep.kishankanejiiya.tech"><img src="assets/doorstep.gif" alt="Doorstep: setting up a rental alert for N12, then a real alert email annotated with what each part means" width="100%"></a>
       <h3><a href="https://doorstep.kishankanejiiya.tech">Doorstep</a> <img alt="Private repo" src="https://img.shields.io/badge/Private_repo-16130F?style=flat-square&logo=github&logoColor=white" align="absmiddle"></h3>
       One rental alert for every UK lettings site. You set an area, rent, bedrooms and a move date once; every 15 minutes an n8n pipeline runs that search on Rightmove, OnTheMarket and OpenRent, merges the same flat listed on several sites into one entry, and emails only what's new. Postgres does the matching: a silent first-scan baseline so nobody is flooded, cross-site dedupe that never sends one home twice, and a window that starts eight weeks before your move. Double opt-in, no account, one-click stop, and the Next.js site only talks to n8n over the internal Docker network.
@@ -164,7 +173,7 @@ Most of my recent work is enterprise-grade systems for **regulated sectors**: th
 </table>
 
 > [!NOTE]
-> **Why some repos are private.** These are early-stage products, so their source stays private while they grow from MVP. Each one runs in hardened containers on my own server behind a Cloudflare Tunnel, with no open inbound ports. They're all live, so give them a try. I'm always happy to walk through the code, architecture and trade-offs on a call. [Just ask on LinkedIn](https://linkedin.com/in/kishankanejiya).
+> **Why some repos are private.** Most of these are early-stage products, so their source stays private while they grow from MVP. SeenSooner is open source because it's built on public NHS data. Each one runs in hardened containers on my own server behind a Cloudflare Tunnel, with no open inbound ports. They're all live, so give them a try. I'm always happy to walk through the code, architecture and trade-offs on a call. [Just ask on LinkedIn](https://linkedin.com/in/kishankanejiya).
 
 <br>
 
