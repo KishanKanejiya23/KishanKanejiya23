@@ -70,6 +70,15 @@ Most of my recent work is enterprise-grade systems for **regulated sectors**: th
 <table>
   <tr>
     <td colspan="2" valign="top">
+      <a href="https://doorstep.kishankanejiiya.tech"><img src="assets/doorstep.gif" alt="Doorstep: setting up a rental alert for N12, then a real alert email annotated with what each part means" width="100%"></a>
+      <h3><a href="https://doorstep.kishankanejiiya.tech">Doorstep</a> <img alt="Private repo" src="https://img.shields.io/badge/Private_repo-16130F?style=flat-square&logo=github&logoColor=white" align="absmiddle"></h3>
+      One rental alert for every UK lettings site. You set an area, rent, bedrooms and a move date once; every 15 minutes an n8n pipeline runs that search on Rightmove, OnTheMarket and OpenRent, merges the same flat listed on several sites into one entry, and emails only what's new. Postgres does the matching: a silent first-scan baseline so nobody is flooded, cross-site dedupe that never sends one home twice, and a window that starts eight weeks before your move. Double opt-in, no account, one-click stop, and the Next.js site only talks to n8n over the internal Docker network.
+      <br><br>
+      <code>n8n</code> <code>Next.js 16</code> <code>PostgreSQL</code> <code>Supabase</code> <code>Docker</code> <code>Cloudflare Tunnel</code> <code>Technical SEO</code>
+    </td>
+  </tr>
+  <tr>
+    <td colspan="2" valign="top">
       <a href="https://airadar.kishankanejiiya.tech"><img src="assets/airadar.gif" alt="AI Radar: a Medium-style publication filled every hour by an n8n workflow" width="100%"></a>
       <h3><a href="https://airadar.kishankanejiiya.tech">AI Radar</a> <img alt="Private repo" src="https://img.shields.io/badge/Private_repo-16130F?style=flat-square&logo=github&logoColor=white" align="absmiddle"></h3>
       A publication written by a workflow. Every hour my n8n pipeline reads 11 AI and full-stack sources and ranks a few hundred links, then publishes the best on a Medium-style site and on Telegram. The workflow posts each run to a private ingest API (bearer token, internal Docker network only), and runs are stored in Postgres in a least-privilege schema on self-hosted Supabase. A Go worker fetches link previews behind an SSRF guard. The site has issues, story pages, topics, full-text search, claps, RSS and a live pipeline strip.
